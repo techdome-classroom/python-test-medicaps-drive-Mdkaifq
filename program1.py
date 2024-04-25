@@ -7,11 +7,11 @@ class Solution(object):
         stk = []
         map1 = {')': '(', '}': '{', ']': '['}
 
-        for char in s:
-            if char in map1.values():
-                stk.append(char)
-            elif char in map1.keys():
-                if stk == [] or map1[char] != stk.pop():
+        for i in s:
+            if i in map1.values():
+                stk.append(i)
+            elif i in map1.keys():
+                if stk == [] or map1[i] != stk.pop():
                     return False
             else:
                 return False
