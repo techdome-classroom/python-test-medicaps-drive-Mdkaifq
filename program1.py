@@ -5,7 +5,7 @@ class Solution(object):
         :rtype: bool
         """
         stack = []
-        mapping={')', '(', '}', '' }
+        mapping={')', '(', '}', '{' }
         while i in bracs:
 
 
