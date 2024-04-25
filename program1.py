@@ -4,19 +4,19 @@ class Solution(object):
         :type s: str
         :rtype: bool
         """
-     stk = []
+        stack = []
         mapping = {')': '(', '}': '{', ']': '['}
 
         for char in s:
             if char in mapping.values():
-             stk.append(char)
+                stack.append(char)
             elif char in mapping.keys():
-                if stk == [] or mapping[char] != stk.pop():
+                if stack == [] or mapping[char] != stack.pop():
                     return False
             else:
                 return False
 
-        return stk == []
+        return stack == []
 
     pass
 
