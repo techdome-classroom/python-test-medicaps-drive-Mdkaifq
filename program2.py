@@ -4,8 +4,6 @@ class Solution(object):
         :type s: str
         :rtype: int
         """
-
-    def roman_to_int(roman):
     roman_numerals = {
         'I': 1,
         'V': 5,
