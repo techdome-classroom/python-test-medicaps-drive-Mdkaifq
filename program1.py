@@ -11,8 +11,8 @@ class Solution(object):
                 count += 1
             elif char == ')':
                 count -= 1
-            if count < 0:
-                return False
+                if count < 0:
+                    return False
     
         return count == 0
 
