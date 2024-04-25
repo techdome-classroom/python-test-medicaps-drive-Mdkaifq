@@ -4,7 +4,7 @@ class Solution(object):
         :type s: str
         :rtype: int
         """
-    roman_numerals = {
+        roman_numerals = {
         'I': 1,
         'V': 5,
         'X': 10,
