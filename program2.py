@@ -20,8 +20,8 @@ class Solution(object):
 
         for numeral in reversed(s):
             value = roman_numerals[numeral]
-        if value < prev_value:
-            result -= value
+            if value < prev_value:
+                result -= value
         else:
             result += value
         prev_value = value
