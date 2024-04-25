@@ -4,7 +4,8 @@ class Solution(object):
         :type s: str
         :rtype: bool
         """
-        bracs=['()','{ }','[ ]']
+        bracs=['( )','{ }','[ ]']
+        
 
         pass
     
