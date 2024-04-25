@@ -4,18 +4,17 @@ class Solution(object):
         :type s: str
         :rtype: bool
         """
-        stack = []
-        mapping={')', '(', '}', '{', '[', ']' }
-
-        for char in s:
-         
-         if char in mapping.values():
-            stack.append(char)
-         elif char in mapping.keys():
-            if stack == [] or mapping[char] != stack.pop():
+        count = 0
+    
+    for char in s:
+        if char == '(':
+            count += 1
+        elif char == ')':
+            count -= 1
+            if count < 0:
                 return False
-         else:
-            return False
+    
+    return count == 0
 
         pass    
 
