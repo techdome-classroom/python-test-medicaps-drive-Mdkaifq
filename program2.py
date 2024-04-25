@@ -14,7 +14,7 @@ class Solution(object):
         'M': 1000
     }
 
-    result = 0
+         result = 0
     prev_value = 0
 
     for numeral in reversed(roman):
