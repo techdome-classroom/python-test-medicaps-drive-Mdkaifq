@@ -24,9 +24,9 @@ class Solution(object):
                 result -= value
             else:
                 result += value
-        prev_value = value
+            prev_value = value
 
-    return result
+        return result
 
 # Test the function
 print(roman_to_int("III"))    # Output: 3
