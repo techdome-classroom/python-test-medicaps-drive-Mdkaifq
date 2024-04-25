@@ -5,7 +5,8 @@ class Solution(object):
         :rtype: bool
         """
         bracs=['( )','{ }','[ ]']
-        
+        while i in bracs:
+            
 
         pass
     
