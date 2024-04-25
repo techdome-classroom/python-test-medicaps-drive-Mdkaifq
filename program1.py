@@ -12,11 +12,11 @@ class Solution(object):
                 stack.append(char)
             elif char in mapping.keys():
                 if stack == [] or mapping[char] != stack.pop():
+                    return False
+            else:
                 return False
-        else:
-            return False
 
-    return stack == []
+        return stack == []
 
     pass
 
