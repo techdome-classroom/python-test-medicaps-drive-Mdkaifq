@@ -18,7 +18,7 @@ class Solution(object):
     result = 0
     prev_value = 0
 
-    for numeral in reversed(roman):
+    for numeral in reversed(s):
         value = roman_numerals[numeral]
         if value < prev_value:
             result -= value
