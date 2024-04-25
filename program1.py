@@ -6,7 +6,8 @@ class Solution(object):
         """
         stack = []
         mapping={')', '(', '}', '{', '[', ']' }
-        while i in bracs:
+        for char in s:
+            
 
 
         pass
