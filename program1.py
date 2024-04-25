@@ -9,7 +9,9 @@ class Solution(object):
         for char in s:
             top= stack.pop() if stack else '#'
             if mapping[char]!=top:
-                return false
+                return False
+            else:
+                
 
 
         pass
