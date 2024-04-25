@@ -7,13 +7,13 @@ class Solution(object):
         stack = []
         mapping={')', '(', '}', '{', '[', ']' }
         for char in s:
-            top = stack.pop() if stack else '#'
-            if mapping[char]!=top:
+        if char in mapping.values():
+            stack.append(char)
+        elif char in mapping.keys():
+            if stack == [] or mapping[char] != stack.pop():
                 return False
-            else:
-                stack.append(char)
-        
-        return not stack 
+        else:
+            return False
 
 
         pass
