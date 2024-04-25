@@ -5,7 +5,7 @@ class Solution(object):
         :rtype: int
         """
         
-     roman_numerals = {
+        roman_numerals = {
            'I': 1,
         'V': 5,
         'X': 10,
