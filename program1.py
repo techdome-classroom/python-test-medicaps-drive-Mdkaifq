@@ -4,9 +4,10 @@ class Solution(object):
         :type s: str
         :rtype: bool
         """
+        stack = 
         bracs=['( )','{ }','[ ]']
         while i in bracs:
-            
+
 
         pass
     
