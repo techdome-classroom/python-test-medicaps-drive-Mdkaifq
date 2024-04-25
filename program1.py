@@ -7,7 +7,7 @@ class Solution(object):
         stack = []
         mapping={')', '(', '}', '{', '[', ']' }
         for char in s:
-            top= stack.pop() if stack
+            top= stack.pop() if stack else
 
 
         pass
