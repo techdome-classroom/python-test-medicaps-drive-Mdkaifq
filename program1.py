@@ -13,6 +13,7 @@ class Solution(object):
             else:
                 stack.append(char)
         
+        returnnot 
 
 
         pass
