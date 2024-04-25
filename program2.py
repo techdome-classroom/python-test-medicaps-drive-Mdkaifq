@@ -22,8 +22,8 @@ class Solution(object):
             value = roman_numerals[numeral]
             if value < prev_value:
                 result -= value
-        else:
-            result += value
+            else:
+                result += value
         prev_value = value
 
     return result
