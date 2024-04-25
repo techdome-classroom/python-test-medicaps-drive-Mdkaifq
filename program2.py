@@ -15,7 +15,7 @@ class Solution(object):
     }
 
          result = 0
-    prev_value = 0
+         prev_value = 0
 
     for numeral in reversed(roman):
         value = roman_numerals[numeral]
