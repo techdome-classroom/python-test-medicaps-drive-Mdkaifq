@@ -12,7 +12,7 @@ class Solution(object):
          elif char in mapping.keys():
             if stack == [] or mapping[char] != stack.pop():
                 return False
-        else:
+         else:
             return False
 
 
