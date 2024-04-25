@@ -8,6 +8,7 @@ class Solution(object):
         mapping={')', '(', '}', '{', '[', ']' }
         for char in s:
             top= stack.pop() if stack else '#'
+            if mapping[char]
 
 
         pass
