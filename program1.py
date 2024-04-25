@@ -5,13 +5,13 @@ class Solution(object):
         :rtype: bool
         """
         stk = []
-        mapping = {')': '(', '}': '{', ']': '['}
+        map1 = {')': '(', '}': '{', ']': '['}
 
         for char in s:
-            if char in mapping.values():
+            if char in map1.values():
                 stk.append(char)
-            elif char in mapping.keys():
-                if stk == [] or mapping[char] != stk.pop():
+            elif char in map1.keys():
+                if stk == [] or map1[char] != stk.pop():
                     return False
             else:
                 return False
